@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Python.Schule ist die deutschsprachige Community rund um Python, Machine Learning und Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.python.schule # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: python-schule
+twitter_username: PythonSchule
 github_username: python-schule
 
 # Build settings
