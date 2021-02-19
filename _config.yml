@@ -46,9 +46,7 @@ collections:
   tutorial:
     output: false
   schulung:
-    output: true
-  hooks:
-    output: false  
+    output: false
   posts:
     output: true
 # Exclude from processing.

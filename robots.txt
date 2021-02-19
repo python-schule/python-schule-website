@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.reactlernen.com/sitemap.xml
+Sitemap: https://python.schule/sitemap.xml
