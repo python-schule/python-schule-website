@@ -1,0 +1,77 @@
+.rocket {
+  position: fixed;
+  left: 7vw;
+  top: 100vh;
+  width: 7vw;
+  z-index: 2000; 
+}
+
+.planet {
+  position: fixed;
+  z-index: 1999;
+  opacity: 0.5;
+}
+
+.planet_0 {
+  width: 5vw;
+  left: 15vw;
+  top: -7vw;
+}
+
+.planet_1 {
+  width: 8vw;
+  left: 4vw;
+  top: -10vw;
+}
+
+.planet_2 {
+  width: 12vw;
+  right: 4vw;
+  top: -14vw;
+}
+
+.planet_3, .planet_4 {
+  display: none; /* for now */
+}
+
+.rocket-launch {
+  top: 100vh;
+  animation: rocketLaunch 3s normal ease-in;
+}
+
+@keyframes rocketLaunch {
+  from {  transform: translateY(0vh)   }
+  to   {  transform: translateY(-130vh) }
+}
+
+.planet-sky-0 {
+  top: -7vw;
+  animation: planetSky0 5s normal linear;
+}
+
+@keyframes planetSky0 {
+  /* from {  transform: translateY(0vh)   } */
+  to   {  transform: translateY(130vh) }
+}
+
+.planet-sky-1 {
+  top: -8vw;
+  animation: planetSky1 4s normal linear;
+}
+
+@keyframes planetSky1 {
+  /* from {  transform: translateY(0vh)   } */
+  to   {  transform: translateY(130vh) translateX(-5vw) }
+}
+
+.planet-sky-2 {
+  top: -12vw;
+  animation: planetSky2 5s normal linear;
+}
+
+@keyframes planetSky2 {
+  /* from {  transform: translateY(0vh)   } */
+  to   {  
+    transform: translateY(130vh) translateX(-10vw)
+  }
+}
