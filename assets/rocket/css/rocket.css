@@ -41,18 +41,18 @@
 }
 
 @keyframes rocketLaunch {
-  from {  transform: translateY(0vh) rotate(-5deg) rotateX(-20deg)  }
-  to   {  transform: translateY(-160vh) translatex(10vw) rotate(15deg) scale(1.8) rotateZ(0deg) }
+  from {  transform: translateY(0vh) rotate(-5deg) rotateX(-5deg)  }
+  to   {  transform: translateY(-160vh) translatex(10vw) rotate(15deg) scale(1.5) rotateZ(0deg) }
 }
 
 .planet-sky-0 {
   top: -7vw;
-  animation: planetSky0 10s normal linear;
+  animation: planetSky0 12s normal 1s ease-out;
 }
 
 @keyframes planetSky0 {
-  /* from {  transform: translateY(0vh)   } */
-  to   {  transform: translateY(130vh) scale(0.5) }
+  from {  transform: translateY(0vh) scale(0.8)  }
+  to   {  transform: translateY(130vh) scale(0.3) }
 }
 
 .planet-sky-1 {
@@ -73,6 +73,7 @@
 @keyframes planetSky2 {
   from {  transform: translateY(0vh) scale(0.5)  }
   to   {  
-    transform: translateY(150vh) translateX(4vw) rotate(-30deg) scale(1.5)
+    transform: translateY(150vh) translateX(4vw) rotate(-30deg) scale(1.3);
+    opacity: 0.5;
   }
 }
