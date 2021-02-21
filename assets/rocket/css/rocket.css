@@ -5,6 +5,7 @@
   width: 7vw;
   z-index: 2000;
   transform: rotate(15deg);
+  opacity: 0.3;
 }
 
 .planet {

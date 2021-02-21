@@ -14,7 +14,12 @@ image_small_description: Python.Schule Community
 
 description_short: Alles zum Thema Machine Learning und Computer Vision mit Python.
 ---
-
 ![](/assets/friends.svg)
+## Unsere Community
 
-<iframe src="https://discord.com/widget?id=812265466608615425&theme=dark" width="740" height="700" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+Die Community befindet sich zur Zeit im Aufbau.<br>
+Nur ein wenig Geduld! Demnächst werden wir hier Events veröffentlichen.
+## Python.Schule auf Discord
+
+<iframe src="https://discord.com/widget?id=812265466608615425&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="float: left; margin-right: 1em;"></iframe>
+... bis dahin freuen wir uns Dich hier begrüßen zu dürfen.
